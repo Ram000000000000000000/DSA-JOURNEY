@@ -16,7 +16,7 @@ I’m consistently solving problems and documenting my thought process.
 - Dynamic Programming
 ## 🔥 Progress Tracker
 - Day 1: Two Sum
-- Day 2: (Next Problem)
+  
 
 ## 💡 Approach
 Each problem includes:
