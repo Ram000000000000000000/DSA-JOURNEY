@@ -60,8 +60,8 @@ nums = [2,7,11,15], target = 9
   store → {2: 0}
 
 - i = 1 → num = 7  
-  complement = 9 - 7 = 2 → found in hashmap  
-  return [0, 1]
+  complement = 9 - 7 = 2 → found in hashmap
+  return [d[2], i] = [0,1]
 ---
 ## ⏱️ Complexity
 
