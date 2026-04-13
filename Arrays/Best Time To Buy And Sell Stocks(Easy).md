@@ -68,4 +68,24 @@ print(s.maxProfit(prices))
 ```
 ---
 ## Iteration walkthrough
-to refer iteration:[Iteration](
+prices = [7,1,5,3,6,4]
+
+i = 0 ,price=7 → min=7,max = max(0,7-7)=0
+price=1 → min=1 → min = 1<7 = 7,max = max(0,1-1)=0
+
+price=5 → min = 5<1(X) min =1,max = max(0,5-1)=4
+
+price=3 →  min = 3<1(X) min =1,max = max(4,3-1)=4
+
+price=6 →  min = 6<1(X) min =1,max = max(4,6-1)=5
+
+price=4 →  min = 4<1(X) min =1,max = max(5,4-1)=5
+
+---
+## ⏱️ Complexity
+
+- **Time Complexity:** O(n)  
+  (We traverse the array once while tracking minimum price and profit)
+
+- **Space Complexity:** O(1)  
+  (No extra space is used, only variables)
