@@ -50,4 +50,22 @@ class Solution:
             max_profit = max(max_profit,i-min_price)
         return max_profit
 ```
-## 💻 Code(LeetCode version) (Python)
+## 💻 Code(Input version) (Python)
+```python
+class Solution:
+    def maxProfit(self,prices):
+        min_price = float('inf')
+        max_profit = 0
+        for i in prices:
+            if i < min_price:
+                min_price = i
+            max_profit = max(max_profit,i-min_price)
+        return max_profit
+prices = list(map(int,input().split()))
+s = Solution()
+print(s.maxProfit(prices))
+
+```
+---
+## Iteration walkthrough
+to refer iteration:[Iteration](
