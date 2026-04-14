@@ -40,7 +40,7 @@ Subarray [4,-1,2,1] has the maximum sum = 6
 ## 💻 Leetcode-Version Code (Python)
 
 ```python
-def maxSubArray(nums):
+def maxSubArray(self, nums: List[int]) -> int:
     curr_sum = 0
     max_sum = nums[0]
 
