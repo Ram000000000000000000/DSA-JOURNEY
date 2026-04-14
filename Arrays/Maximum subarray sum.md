@@ -73,4 +73,37 @@ def maxSubArray(nums):
   print(maxSubArray(nums))
   ```
   
-```
+---
+## Iteration Walkthrough
+
+nums = [-2,1,-3,4,-1,2,1,-5,4]
+
+num=-2 → curr=-2 → max=-2 → reset curr=0
+
+num=1 → curr=1 → max=1
+
+num=-3 → curr=-2 → reset curr=0
+
+num=4 → curr=4 → max=4
+
+num=-1 → curr=3
+
+num=2 → curr=5 → max=5
+
+num=1 → curr=6 → max=6
+
+num=-5 → curr=1
+
+num=4 → curr=5
+
+---
+
+## ⏱️ Complexity
+Time Complexity: O(n)
+
+Space Complexity: O(1)
+
+---
+## Key Learning
+
+Negative running sums should be discarded to maximize the overall subarray sum.
